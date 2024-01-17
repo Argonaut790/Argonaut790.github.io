@@ -6,7 +6,7 @@ subtitle: 𝗖𝗨𝗛𝗞 | 𝗦𝗲𝗻𝗶𝗼𝗿 | 𝗖𝗼𝗺𝗽𝘂𝘁
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: DSC05847.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     
