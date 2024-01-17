@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Argonaut790
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Argonaut790/Global-Solar-Radiation-in-King-s-Park
+  - Argonaut790/CSCI3100-Project
+  - Argonaut790/resume-generator
+  - Argonaut790/csci-2720
