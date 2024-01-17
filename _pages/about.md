@@ -2,33 +2,36 @@
 layout: about
 title: About
 permalink: /
-subtitle: 𝗖𝗨𝗛𝗞 | 𝗦𝗲𝗻𝗶𝗼𝗿 | 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 | 𝗨𝗖 | 𝗧𝗦𝗧𝗦𝗦 | 𝗝𝗧𝗜
+subtitle: 𝗛𝗞 | 𝗖𝗨𝗛𝗞 | 𝗦𝗲𝗻𝗶𝗼𝗿 | 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 | 𝗨𝗖 | 𝗧𝗦𝗧𝗦𝗦 | 𝗝𝗧𝗜
 
 profile:
   align: right
-  image: DSC05847.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    
+    <a href="https://www.buymeacoffee.com/argonaut790" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" ></a>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+educations: 
+  image: CUHK.jpg
+  image_circular: false # crops the image to 
 ---
 
-> "You wanted to program because you saw the amazing things that can be built using programming" —— ***Joma***
-> 
-A Final-year (2023-2024) Comuter Science major student from The Chinese University of Hong Kong<br>
-👀 I’m interested in a lot of stuff<br>
-🔥 Rope Skipping, Photographing, Cycling, Hiking, Coding ...<br>
-🎓 I’m currently studying at The Chinese University Of Hong Kong<br>
-📜 Majoring in Computer Science (Degree)<br>
-💻 Concentrating on Intelligence Science and Data Analytics<br>
-<!-- 🌐 Here is my [Personal Website](https://hkbillson.com)<br> -->
-⚙️ I’m currently working on a research that is related to the LLM and utilizing langchain to implement different research paper's implementation such as COT, TOT, ...<br>
-📖 I’m currently learning advance python, typescript ,ML models, and buiding model architecture using tensorflow.<br>
-📫 How to reach me <tung23966373@gmail.com>, <br>
-	if you have interested project or you want international communication, feel free to chat with me :P
+> “You wanted to program because you saw the amazing things that can be built using programming” —— Joma
 
-<a href="https://www.buymeacoffee.com/argonaut790" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+Hello, I am **Billy**, a Senior year student from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html), majoring in Computer Science and concentrating in Artificial Intelligence, expecially in field of `Large Language Model` and `Applied Machine Learning`. <br>
+
+Apart from that, I am also focusing on `Software Engineering` such as building web application using `ReactJS`, `NextJS`, `TypeScript`, `NodeJS`, ... <br>
+
+I am currently working on a conference paper related to the field of `Large Language Model`. <br>
+
+
+---
+
+<!-- ![CUHK](assets/img/prof_pic.jpg) -->
+<!-- ### BSc in Computer Science
+##### The Chinese University of Hong Kong
+##### September 2020 - Present -->

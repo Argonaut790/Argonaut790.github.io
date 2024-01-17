@@ -8,7 +8,7 @@ layout: default
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        {{ site.title }}
+        ✨{{ site.title }}
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
@@ -38,7 +38,39 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix">{{ content }}
+    
+    <!-- Educations -->
+    {% if page.educations %}
+    <h2>Educations</h2>
+      <div >
+        {% capture sizes %}(min-height: {{site.max_width}}) {{ site.max_height | minus: 30 | times: 0.3}}px, (min-height: 576px)
+        30vw, 95vw"{% endcapture %}
+        <div class="profile float-left">
+          {% if page.educations.image %}
+            {% assign educations_image_path = page.educations.image | prepend: 'assets/img/' %}
+            {% if page.educations.image_circular %}
+              {% assign educations_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign educations_image_class = 'img-fluid z-depth-1
+        rounded' %}
+            {% endif %}
+            {% capture educations_sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.1}}px, (min-width: 576px)
+        10vw, 95vw"{% endcapture %}
+            {%
+              include figure.liquid path = educations_image_path class = educations_image_class sizes = educations_sizes alt = page.educations.image
+              cache_bust = true
+            %}
+          {% endif %}
+        </div>
+        <div>
+          <h3>BSc in Computer Science</h3>
+          <h5>The Chinese University of Hong Kong</h5>
+          <h5>September 2020 - Present</h5>
+        </div>
+      </div>
+    {% endif %}
+    </div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -55,6 +87,8 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+
+    
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
